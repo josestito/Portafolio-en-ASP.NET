@@ -1,0 +1,14 @@
+﻿<!--Esta vista recibe datos de tipo HomeIndexViewModel-->
+@model Portafolio.Models.HomeIndexViewModel
+
+
+@{
+    ViewData["Title"] = "Proyectos";
+}
+
+<div class="container">
+    <h1>Mis proyectos</h1>
+    <p>Aqui encontrara todos los proyectos en los que e trabajado</p>
+</div>
+<partial name="_ListadoProyectos" model="Model"></partial>
+

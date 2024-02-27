@@ -1,0 +1,16 @@
+﻿<!-- aca declaramos el tipo de dato que estamos enviando desde el controlador en este caso, nuestro html
+esta habilitado para recibir datos de tipo Persona
+-->
+@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- aca estoy importando la vista parcial que corresponde a la presentacion, con el nombre de la vista-->
+<partial name="_presentacion" />
+<partial name="_habilidades" />
+<partial name="_SeccionProyectos" />
+
+
+

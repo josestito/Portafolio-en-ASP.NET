@@ -1,0 +1,37 @@
+﻿/*  el link de referencia para usar este css en la vista index.cshtml 
+    está ubicado en la carpeta Shared/_Leyout.cshtml que es la carpeta que contiene todo lo que se comparte entre
+    vistas
+*/
+#foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+.seccion-bienvenida {
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+.seccion-bienvenida h1  {
+    margin-bottom: 1rem;
+}
+
+.seccion-bienvenida h1  {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+#imagen-dotnet {
+    width: 200px;
+}
+
+.cabecera {
+    font-weight: bold;
+}
+
+.habilidades i {
+    color: #0d6efd;
+    font-size: 50px;
+}
